@@ -29,13 +29,13 @@ response capabilities.
 
 # 📌 Overview
 
-Rakshak AI provides: - Web Dashboard for administrators\
-- Mobile App for on-duty police personnel\
+Rakshak AI provides: - Web Dashboard for administrators
+- Mobile App for on-duty police personnel
 - Citizen App for alerts and CCTV access
 
-The system uses CCTV streams + AI models to detect: - Accidents\
-- Crimes\
-- Suspicious activities\
+The system uses CCTV streams + AI models to detect: - Accidents
+- Crimes
+- Suspicious activities
 - Anomalies
 
 It delivers instant notifications, enriched insights, and a complete
@@ -44,11 +44,11 @@ security workflow.
 # 🚨 Problem Statement
 
 -   Security personnel cannot manually monitor hundreds of CCTV feeds
-    effectively.\
+    effectively.
 -   Human fatigue and errors lead to delayed responses and missed
-    incidents.\
+    incidents.
 -   On-ground officers lack real-time synchronization with monitoring
-    centers.\
+    centers.
 -   Citizens do not have a verified way to receive or report incidents.
 
 Rakshak AI solves all the above with automated monitoring +
@@ -58,24 +58,24 @@ communication + AI analytics.
 
 ## 🖥️ Web Dashboard (Admin Panel)
 
--   Interactive analytics dashboard displaying all incidents\
--   Geo-mapped CCTV viewer with live stream access\
--   Real-time incident detection using AI models\
--   Automated alerts & notifications\
--   LLM-powered natural language insights\
--   Feedback learning for false positives/negatives\
+-   Interactive analytics dashboard displaying all incidents
+-   Geo-mapped CCTV viewer with live stream access
+-   Real-time incident detection using AI models
+-   Automated alerts & notifications
+-   LLM-powered natural language insights
+-   Feedback learning for false positives/negatives
 -   Monitor on-duty personnel statuses
 
 ## 👮🏻‍♂️ Mobile App (On-Duty Personnel)
 
--   Report incidents with type, description & media\
--   Track status of submitted incident reports\
+-   Report incidents with type, description & media
+-   Track status of submitted incident reports
 -   Multi-language UI
 
 ## 👥 Citizen Mobile App
 
--   Alerts for nearby incidents\
--   Map view of verified incidents\
+-   Alerts for nearby incidents
+-   Map view of verified incidents
 -   Access to public CCTV streams
 
 # 🏗️ Architecture
@@ -88,9 +88,9 @@ CCTV Streams → AI Detection Server → FastAPI Backend → MongoDB & S3\
 
 # 🛠️ Tech Stack
 
-**Frontend**: React, TypeScript, Mapbox, Google Maps SDK\
-**Mobile**: Flutter, Dart, BLoC\
-**Backend**: FastAPI, MongoDB, AWS S3, Uvicorn\
+**Frontend**: React, TypeScript, Mapbox, Google Maps SDK
+**Mobile**: Flutter, Dart, BLoC
+**Backend**: FastAPI, MongoDB, AWS S3, Uvicorn
 **AI Models**: YOLO, TensorFlow, PyTorch, Mixtral-8x7B
 
 # ⚙️ Installation & Setup
@@ -125,12 +125,12 @@ CCTV Streams → AI Detection Server → FastAPI Backend → MongoDB & S3\
 
 # 📂 Project Structure
 
-Rakshak-AI/ ├── Frontend/\
-├── App/\
-├── Backend/\
-├── video-server/\
-├── models/\
-├── scripts/\
+Rakshak-AI/ ├── Frontend/
+├── App/
+├── Backend/
+├── video-server/
+├── models/
+├── scripts/
 └── README.md
 
 # 🤝 Contributors
