@@ -134,6 +134,10 @@ Rakshak-AI\
 ├── scripts\
 └── README.md
 
+# 🤝 Contributors
+
+**Dhanush MB** 
+
 # 📜 License
 
 MIT License
