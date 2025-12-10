@@ -125,12 +125,12 @@ CCTV Streams → AI Detection Server → FastAPI Backend → MongoDB & S3\
 
 # 📂 Project Structure
 
-Rakshak-AI/ ├── Frontend/
-├── App/
-├── Backend/
-├── video-server/
-├── models/
-├── scripts/
+Rakshak-AI/ ├── Frontend\
+├── App\
+├── Backend\
+├── video-server\
+├── models\
+├── scripts\
 └── README.md
 
 # 🤝 Contributors
